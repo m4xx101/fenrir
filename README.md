@@ -75,7 +75,7 @@ fenrir/
 
 ```bash
 # Install
-git clone https://github.com/NousResearch/fenrir.git
+git clone https://github.com/m4xx101/fenrir.git
 cd fenrir
 pip install -e .
 
