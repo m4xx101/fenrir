@@ -1,0 +1,20 @@
+root = "."
+tmp_dir = "tmp"
+build_dir = "build"
+
+[build]
+  cmd = "echo 'Fenrir Pro-Max - Python project, no compilation needed'"
+  bin = ""
+  include_ext = ["py"]
+  exclude_dir = ["tmp", "build", "venv", ".venv", ".git", "__pycache__", "data", "docs"]
+  exclude_file = []
+  delay = 500
+  kill_delay = "1s"
+  send_interrupt = true
+  stop_on_error = false
+
+[log]
+  time = true
+
+[screen]
+  clear_on_rebuild = true
